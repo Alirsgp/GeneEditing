@@ -1,4 +1,4 @@
-from Bio import SeqIO
+from Bio import SeqIO # type: ignore
 import sys
 
 def extract_subsequence(fasta_file, start, end, output_file=None):
